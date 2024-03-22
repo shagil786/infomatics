@@ -1,0 +1,19 @@
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headerContainer h3,
+h1 {
+    font-weight: 400;
+}
+
+@media(min-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}

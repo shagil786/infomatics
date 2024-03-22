@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blockConatainer {
+    display: flex;
+    position: relative;
+    gap: 6px;
+    padding-left: 20px;
+    font-size: 14px;
+    align-items: center;
+    width: 45%;
+
+}
+
+.blockConatainer p[data-type='color'] {
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.blockConatainer p[data-type='percentage'] {
+    font-weight: bold;
+}
